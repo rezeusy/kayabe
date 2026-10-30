@@ -5,7 +5,7 @@
     <string name="title_activity_maps">MapsActivity</string>
     <string name="title_activity_map">MapActivity</string>
 
-    <string name="places_api_key">AIzaSyCM0SLC4h1_VHzWy70RGT1wlIHWNjtaWwA</string>
+    <string name="places_api_key">API KEY</string>
     <string name="default_web_client_id">962685227322-3lhl48nfauptumlqug5brr3u14lfi30a.apps.googleusercontent.com</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
