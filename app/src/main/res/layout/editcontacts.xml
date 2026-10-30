@@ -1,0 +1,34 @@
+<!-- res/layout/custom_trusted_contact_dialog.xml -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:id="@+id/contactsContainer">
+
+    <!-- Trusted contact items will be added here -->
+
+    <EditText
+        android:id="@+id/editTextNewContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/black"
+        android:hint="Enter new contact (phone or email)"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="90dp"
+        android:background="@color/green"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Add" />
+</LinearLayout>

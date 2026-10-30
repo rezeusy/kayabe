@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#808080</color>
+    <color name="red">#FF0000</color>
+    <color name="colorPrimary">#FF4081</color>
+    <color name="colorPrimaryDark">#D81B60</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="date_picker_text_color">#333333</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="GRAY">#D9D9D9</color>
+    <color name="green">#186F65</color>
+    <color name="light">#F5F5F5</color>
+    <color name="purple">#0E21A0</color>
+    <color name="jeep_yellow">#FEFF86</color>
+    <color name="jeep_blue">#0802A3</color>
+    <color name="jeep_orange">#FF8B13</color>
+    <color name="jeep_grey">#B4B4B3</color>
+    <color name="jeep_red">#D80032</color>
+    <color name="jeep_purple">#A31ACB</color>
+    <color name="jeep_pink">#FF3FA4</color>
+    <color name="jeep_white">#FFFDD0</color>
+    <color name="jeep_brown">#F7E6C4</color>
+
+    <!--    Palette-->
+    <color name="darkgreykayabe">#353535</color>
+    <color name="palettegreenkayabe">#3C6E71</color>
+    <color name="palettegreykayabe">#D9D9D9</color>
+    <color name="palettebluekayabe">#284B63</color>
+
+
+
+
+</resources>

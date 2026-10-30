@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "962685227322",
+    "firebase_url": "https://nav-angeles-thesis-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "nav-angeles-thesis",
+    "storage_bucket": "nav-angeles-thesis.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:962685227322:android:23d227d45178e138444003",
+        "android_client_info": {
+          "package_name": "com.example.angelesnav"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "962685227322-21mjpbote7jdepbg0rdl17oqfao9tf1p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.angelesnav",
+            "certificate_hash": "6004451e7c6d025285c50b1bfc428868a27c02b6"
+          }
+        },
+        {
+          "client_id": "962685227322-ic4ncblu3868onhtu8h8rorupan3fgf0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJjvlSabesz3Cc8NEzm93v2tJLWpuvfQI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "962685227322-ic4ncblu3868onhtu8h8rorupan3fgf0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:962685227322:android:c9ffed32183027a6444003",
+        "android_client_info": {
+          "package_name": "com.example.kayabeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "962685227322-ic4ncblu3868onhtu8h8rorupan3fgf0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJjvlSabesz3Cc8NEzm93v2tJLWpuvfQI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "962685227322-ic4ncblu3868onhtu8h8rorupan3fgf0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">kayabeApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_map">MapActivity</string>
+
+    <string name="places_api_key">AIzaSyCM0SLC4h1_VHzWy70RGT1wlIHWNjtaWwA</string>
+    <string name="default_web_client_id">962685227322-3lhl48nfauptumlqug5brr3u14lfi30a.apps.googleusercontent.com</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+
+    <string name="facebook_app_id">279671324976068</string>
+    <string name="facebook_client_token">a85d671735029e4fce30bc72ae1031b0</string>
+
+
+</resources>

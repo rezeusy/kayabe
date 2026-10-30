@@ -1,0 +1,245 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="10dp"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/autocomplete_fragment"
+            android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="405dp"
+        android:layout_height="124dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/map"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView"
+        app:layout_constraintVertical_bias="0.732"
+        />
+
+    <Button
+        android:id="@+id/hideImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hide Image"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/map"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.558" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_btn"
+        android:layout_width="57dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ackjeep"
+        app:fabSize="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.94"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.955" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/tourist_btn"
+        android:layout_width="57dp"
+        android:layout_height="60dp"
+        android:src="@drawable/tourist"
+        app:fabSize="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.94"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.853" />
+
+    <LinearLayout
+        android:id="@+id/sidebarLayout"
+        android:layout_width="241dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:visibility="gone"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints">
+
+        <!-- Add your sidebar content here -->
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="170dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/logo"
+            android:padding="20dp"
+            ></LinearLayout>
+
+        <Button
+            android:id="@+id/btn_profile"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="@color/green"
+            android:textColor="@color/white"
+            android:text="User Profile"
+            android:drawableLeft="@drawable/iconusers"
+            android:paddingStart="20dp"
+            android:drawablePadding="7dp"
+            android:gravity="start|center_vertical" />
+
+
+        <Button
+            android:id="@+id/matrix"
+            android:layout_width="200dp"
+            android:layout_height="54dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="@color/green"
+            android:textColor="@color/white"
+            android:drawableLeft="@drawable/coins"
+            android:paddingStart="20dp"
+            android:drawablePadding="7dp"
+            android:gravity="start|center_vertical"
+            android:text="Matrix" />
+
+
+        <Button
+            android:id="@+id/report"
+            android:layout_width="200dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="@color/green"
+            android:drawableLeft="@drawable/appreport"
+            android:paddingStart="20dp"
+            android:drawablePadding="7dp"
+            android:gravity="start|center_vertical"
+            android:textColor="@color/white"
+            android:text="Report" />
+
+        <Button
+            android:id="@+id/SOS"
+            android:layout_marginTop="190dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="200dp"
+            android:layout_height="54dp"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="@color/green"
+            android:drawableLeft="@drawable/emergency"
+            android:paddingStart="20dp"
+            android:drawablePadding="7dp"
+            android:gravity="start|center_vertical"
+            android:textColor="@color/white"
+            android:text="S-O-S"
+            />
+        <Button
+            android:id="@+id/sidebar_logout_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="@color/green"
+            android:text="Logout"
+            android:textColor="@color/white" />
+
+<!--        <androidx.fragment.app.FragmentContainerView-->
+<!--            android:id="@+id/autocomplete_fragment2"-->
+<!--            android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent" />-->
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/hamburger_button"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:onClick="toggleSidebar"
+        android:padding="12dp"
+        android:src="@drawable/ic_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.008"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+<!--    Pang darkbackground-->
+
+    <View
+        android:id="@+id/overlayView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#80000000"
+        android:visibility="gone" />
+
+<!--    Animation-->
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/loadingAnimationView"
+        android:layout_width="412dp"
+        android:layout_height="727dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/lottie"
+        android:visibility="gone"/>
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/locationfound"
+        android:layout_width="412dp"
+        android:layout_height="727dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/here"
+        android:visibility="gone"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
